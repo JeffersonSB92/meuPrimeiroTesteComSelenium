@@ -43,8 +43,8 @@ public class SignTest {
         WebDriver navegador = new ChromeDriver();
 
         navegador.get("http://facebook.com");
-        navegador.findElement(By.id("globalContainer")).findElement(By.name("email")).sendKeys("jefftavares92@gmail.com");
-        navegador.findElement(By.id("globalContainer")).findElement(By.name("pass")).sendKeys("#Miguel2142");
+        navegador.findElement(By.id("globalContainer")).findElement(By.name("email")).sendKeys("test32@test.com");
+        navegador.findElement(By.id("globalContainer")).findElement(By.name("pass")).sendKeys("3234dddffd665dd6df96df6d9f6fdf545df54df");
         navegador.findElement(By.id("globalContainer")).findElement(By.name("login")).submit();
     }
 
